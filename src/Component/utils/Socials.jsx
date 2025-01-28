@@ -1,5 +1,5 @@
 import React from 'react'
-import instagram from "../../assest/insta-icon.svg"
+import instagram from "../../assest/Insta-icon.svg"
 import facebook from "../../assest/facebook-icon.svg"
 import twitter from "../../assest/twiiter.svg"
 import pinterest from "../../assest/pinterest.svg"
