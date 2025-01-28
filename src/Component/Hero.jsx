@@ -16,7 +16,7 @@ const Hero = () => {
                 style={{ background: `url(${background})` }}>
 
 
-                <div className=' flex flex-col md:ml-22 gap-7 md:pr-10 ml-2 '
+                <div className=' flex flex-1 flex-col md:ml-22 gap-7 md:pr-10 ml-2 '
                 >
                     <div className='flex gap-2 mt-8'>
                         <img src={star} alt="start" />
@@ -88,7 +88,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className='relative  mt-10'>
+                <div className='relative flex-1  mt-10'>
 
                     <img
                         className="md:absolute -z-10 right-0 bottom-0"

@@ -79,7 +79,7 @@ const Services = () => {
                 </div>
                 <div className='flex flex-wrap justify-center mt-10'>
                     {services.map((service, index) => (
-                        <div key={service.id} className={`flex relative flex-col justify-between items-center  mb-15  h-62 gap-5
+                        <div key={service.id} className={`flex relative flex-col justify-between items-center  mb-15  w-[320px] gap-5
                         ${index === 1 || index === 4 ?
                                 " border-x-1 border-gray-300  before:content-[''] before:absolute before:left-[-2px] before:h-[20px] before:w-1 before:top-10 before:bg-[#BB162B] after:content-[''] after:absolute after:right-[-2.5px] after:bottom-10 after:h-[20px] after:w-1 after:bg-[#BB162B]  "
                                 : ""} `}>
