@@ -1,5 +1,5 @@
 import React from 'react'
-import Socials from './utils/socials'
+import Socials from './utils/Socials'
 import uparrow from "../assest/uparrow.svg"
 const Footer = () => {
     const footerLinks = {
