@@ -22,7 +22,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Toggle Buttons */}
         <div onClick={toggleMenu} className='m-5 z-10 cursor-pointer'>
-          {isMenuOpen ? <><img src={cross} alt="" /></> : <><img src={hamburger} alt="" /></>}
+          {isMenuOpen ? <><img className='md:hidden' src={cross} alt="" /></> : <><img className='md:hidden' src={hamburger} alt="" /></>}
         </div>
 
         {/* Mobile menu items */}
@@ -53,10 +53,10 @@ const Nav = styled.nav`
     width: 100%;
     
     ul {
+      z-index: -9999;
       flex-direction: column;
       background-color: white;
       padding: 1rem;
-      
       display: ${props => (props.isOpen ? 'flex' : 'none')}; /* Toggle visibility */
     }
   }

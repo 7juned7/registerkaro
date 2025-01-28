@@ -16,7 +16,7 @@ const Hero = () => {
                 style={{ background: `url(${background})` }}>
 
 
-                <div className=' flex flex-col ml-22 gap-7 pr-10 '
+                <div className=' flex flex-col md:ml-22 gap-7 md:pr-10 ml-2 '
                 >
                     <div className='flex gap-2 mt-8'>
                         <img src={star} alt="start" />
@@ -32,11 +32,11 @@ const Hero = () => {
                     </div>
                     <div className=' flex-col flex gap-7'>
                         <div>
-                            <h1 className=' text-5xl font-medium leading-14.5'>Your trusted partner</h1>
+                            <h1 className=' text-4xl font-medium leading-14.5'>Your trusted partner</h1>
 
-                            <h1 className='font-medium text-5xl '  >for compliance business needs</h1>
+                            <h1 className='font-medium text-4xl '  >for compliance business needs</h1>
                         </div>
-                        <p className='h-[1px] bg-red-500 w-[50px] '></p>
+                        <p className='h-[1px] w-[50px] '></p>
                         <div>
 
                             <p className=' text-[#333333]'>An online business compliance platform that helps entrepreneurs and other individuals with various,<span className='font-semibold text-[#4F4F4F]'>registrations</span> ,<span className='text-[#4F4F4F] font-semibold' >tax filings</span> , and other <span className='font-semibold text-[#4F4F4F]' >legal matters</span> .</p>
@@ -88,7 +88,7 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className='relative  w-full mt-10'>
+                <div className='relative  mt-10'>
 
                     <img
                         className="md:absolute -z-10 right-0 bottom-0"

@@ -15,7 +15,7 @@ function App() {
 
 
   return (
-    <div className='flex justify-center'>
+    <div className=''>
       <div className='max-w-[2000px]'>
         <HeaderNav />
         <Navbar />

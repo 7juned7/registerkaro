@@ -45,7 +45,7 @@ const Manage = () => {
                     <div className='md:absolute hidden md:block right-60 top-50 w-[300px]'>
                         <img className='' src={phone} alt="" />
                     </div>
-                    <div className='absolute -z-10  right-0 top-0 w-[300px]'>
+                    <div className='absolute -z-10  right-0 top-0 md:opacity-100 opacity-50 w-[300px]'>
                         <img src={phone} alt="" />
                     </div>
                 </div>
@@ -105,7 +105,7 @@ const Manage = () => {
                 </div>
                 <h2 className='text-white font-bold text-3xl' >Welcome to your new digital reality.Now</h2>
                 <div className='flex'>
-                    <input type="text" className='w-80 p-1 h-[40px] rounded-l-md bg-white focus:outline' placeholder='Enter Your Email' />
+                    <input type="text" className=' p-1 h-[40px] rounded-l-md bg-white focus:outline' placeholder='Enter Your Email' />
                     <button type="" className='bg-[#FFA229] p-2 rounded-r-md text-white'>Submit</button>
                 </div>
                 <div className='flex justify-evenly w-full flex-wrap' >
@@ -126,7 +126,7 @@ const Manage = () => {
 
             </div>
             <div className='p-10'>
-                <div className='flex gap-10 items-center justify-center flex-wrap'>
+                <div className='flex gap-5 items-center justify-center flex-wrap'>
                     <img src={coinbase} alt="" />
                     <img src={dropbox} alt="" />
                     <img src={slake} alt="" />
