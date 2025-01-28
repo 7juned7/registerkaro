@@ -2,7 +2,7 @@ import React from 'react'
 import email from "../assest/Email.svg"
 import phone from "../assest/phone-icon.svg"
 
-import Socials from './utils/socials'
+import Socials from './utils/Socials'
 
 const HeaderNav = () => {
     return (
