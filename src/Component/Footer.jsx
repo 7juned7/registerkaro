@@ -1,6 +1,6 @@
 import React from 'react'
 import Socials from './utils/socials'
-
+import uparrow from "../assest/uparrow.svg"
 const Footer = () => {
     const footerLinks = {
         startBusiness: ["Features", "Solutions", "Integrations", "Enterprise"],
@@ -9,9 +9,15 @@ const Footer = () => {
         complianceAndTax: ["Channels", "Scale", "Watch the Demo", "Our Competition", "BIS & CDSCO"],
         aboutUs: ["About Us", "News", "Leadership", "Media Kit"]
     };
+    const goTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth', // Smooth scrolling
+        });
+    };
 
     return (
-        <div className='bg-[#011B5B] p-10'>
+        <div className='bg-[#011B5B] p-10 gap-10 flex flex-col'>
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10">
                 {/* Intro Section */}
                 <div className="footer-intro col-span-1 sm:col-span-2 lg:col-span-1">
@@ -70,6 +76,12 @@ const Footer = () => {
                         ))}
                     </ul>
                 </div>
+            </div>
+            <div className='flex gap-2 items-center justify-center flex-col text-center' >
+                <button onClick={goTop} ><img src={uparrow} alt="" className='bg-[#FFA229] cursor-pointer rounded-full p-2' /></button>
+                <p className='text-gray-400  '>
+
+                    © 2024 RegisterKaro. All Rights Reserved.</p>
             </div>
         </div>
     )
