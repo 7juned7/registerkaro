@@ -18,15 +18,15 @@ const Manage = () => {
             <div className='bg-[#1C4670] -z-20 flex p-10 py-20 relative flex-col md:flex-row overflow-hidden mt-10' >
                 <div className='flex flex-col gap-10 flex-[.7]' >
                     <h2 className='text-[#FFA229] md:text-white font-bold text-3xl'>Manage our Services by your Mobile Phone</h2>
-                    <p className='text-gray-500' > Download our app to manage and track your services. Our app enables you to stay in touch with our experts and aids you in tracking your progress.</p>
+                    <p className='text-white' > Download our app to manage and track your services. Our app enables you to stay in touch with our experts and aids you in tracking your progress.</p>
 
                     <div className='flex gap-4 flex-col z-10'>
                         <p className='text-white font-bold'>Get the App</p>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-2 flex-col'>
                             <button className='py-2 px-6 rounded-md flex items-center gap-4 border bg-white border-[#A5C937]'>
                                 <img src={apple} alt="apple" />
-                                <div>
-                                    <p className='font-semibold'>Get it on</p>
+                                <div className=''>
+                                    <p className=' md:text-md text-sm font-semibold'>Get it on</p>
                                     <p className='font-bold'>App Store</p>
                                 </div>
                             </button>
